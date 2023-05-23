@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+//Aggiungo il metodo View per ritornare solo una view
+Route::view('/', 'home')->name('home');
+//Aggiungo get con parametri il controller e il metodo index - nomino il percorso
 Route::get('/movies', [PageController::class, 'index'])->name('movies.index');

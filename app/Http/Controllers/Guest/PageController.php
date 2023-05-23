@@ -12,4 +12,5 @@ class PageController extends Controller
         $movies = Movie::all();
         return view('movies.index', compact('movies'));
     }
+
 }
