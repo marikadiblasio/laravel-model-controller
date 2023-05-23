@@ -55,11 +55,17 @@ main{
     .show-movie{
         height: 100%;
         width: 100%;
-
-        .my-absolute{
-            position: absolute;
-            bottom: 20px;
-            right: 20px;
+        .d-flex{
+            height: 80%;
+            .my-img{
+                width: 100%;
+                height: 100%;
+            }
+            .my-absolute{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
         }
     }
 }

@@ -16,6 +16,8 @@ class PageController extends Controller
 
     public function show($id){
         $movie = Movie::findOrFail($id);
-        return view('movies.show', compact('movie'));
+        $rating = round($movie->vote / 2);
+        $year = substr($movie->date, 0, 4);
+        return view('movies.show', compact('movie', 'rating', 'year'));
     }
 }
