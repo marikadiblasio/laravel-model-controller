@@ -34,6 +34,7 @@ $fa-font-path: "../fonts/webfonts";
     background-color: $my-primary;
     border-color: $my-primary;
     color: $my-secondary;
+    padding: 10px 15px;
 }
 //Header
 header, footer
@@ -48,6 +49,17 @@ main{
         .row{
             height: calc(100vh - 220px);
             overflow-y: auto;
+        }
+    }
+
+    .show-movie{
+        height: 100%;
+        width: 100%;
+
+        .my-absolute{
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
         }
     }
 }

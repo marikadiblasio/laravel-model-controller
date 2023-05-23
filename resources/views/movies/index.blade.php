@@ -8,7 +8,7 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ $movie->title }}</h5>
                     <p class="card-text">{{ $movie->original_title }}</p>
-                    <a href="#" class="btn btn-">More Info</a>
+                    <a href="{{route('movies.show', $movie->id)}}" class="btn">More Info</a>
                 </div>
             </div>
         </div>

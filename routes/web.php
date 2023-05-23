@@ -18,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'home')->name('home');
 //Aggiungo get con parametri il controller e il metodo index - nomino il percorso
 Route::get('/movies', [PageController::class, 'index'])->name('movies.index');
+
+//Per details
+Route::get('/movies/{id}', [PageController::class, 'show'])->name('movies.show');
