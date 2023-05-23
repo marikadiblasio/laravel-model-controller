@@ -17,14 +17,14 @@
 
 <body>
     @include('partials.header')
-    <main class="my-bg-tertiary">
+    <main>
         <div class="container">
             <div class="row">
                 @yield('content')
             </div>
         </div>
     </main>
-
+    @include('partials.footer')
 </body>
 
 </html>

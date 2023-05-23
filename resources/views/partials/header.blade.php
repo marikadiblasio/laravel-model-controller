@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg my-bg-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="{{route('home')}}">
             <img class="rem-3" src="{{ Vite::asset('resources/img/square-logo.svg') }}" alt="logo">

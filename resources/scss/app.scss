@@ -21,7 +21,7 @@ $fa-font-path: "../fonts/webfonts";
 }
 //Background
 .my-bg-tertiary{
-    background-color: $my-tertiary;
+    background-color: #ddffe6;
 }
 
 //Width
@@ -34,4 +34,20 @@ $fa-font-path: "../fonts/webfonts";
     background-color: $my-primary;
     border-color: $my-primary;
     color: $my-secondary;
+}
+//Header
+header, footer
+{
+    height: 100px;
+}
+main{
+    height: calc(100vh - 200px);
+
+    .container{
+        height: calc(100vh - 220px);
+        .row{
+            height: calc(100vh - 220px);
+            overflow-y: auto;
+        }
+    }
 }
