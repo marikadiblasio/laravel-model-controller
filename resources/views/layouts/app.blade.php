@@ -16,15 +16,12 @@
 </head>
 
 <body>
-
-    <main class="bg-light">
+    @include('partials.header')
+    <main class="my-bg-tertiary">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    @yield('content')
-                </div>
+                @yield('content')
             </div>
-
         </div>
     </main>
 

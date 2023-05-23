@@ -7,3 +7,31 @@ $fa-font-path: "../fonts/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/regular";
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
+
+
+//Color
+.my-primary{
+    color: $my-primary;
+}
+.my-secondary{
+    color: $my-secondary;
+}
+.my-tertiary{
+    color: $my-tertiary;
+}
+//Background
+.my-bg-tertiary{
+    background-color: $my-tertiary;
+}
+
+//Width
+.rem-3{
+    width: 3rem;
+    height: 3rem;
+}
+//Btn
+.btn{
+    background-color: $my-primary;
+    border-color: $my-primary;
+    color: $my-secondary;
+}
